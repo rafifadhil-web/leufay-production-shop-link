@@ -1,0 +1,1 @@
+export default function NotFound(){return <main className="shell" style={{padding:'100px 0'}}><p className="eyebrow">404</p><h1 className="section-title">PRODUCT NOT FOUND.</h1><a className="button" href="/">RETURN TO SHOP</a></main>}

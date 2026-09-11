@@ -1,0 +1,2 @@
+import { AdminProtected } from '@/components/AdminProtected';
+export default function Settings(){return <AdminProtected><><p className="eyebrow">CONFIGURATION</p><h1 className="section-title">SETTINGS</h1><div className="card" style={{padding:22,maxWidth:650,color:'#c4cde2',lineHeight:1.6}}>Site identity is currently configured in <code>src/app/layout.tsx</code>. Product and category management is fully available above. A settings table can be added later when editable social links or site copy are needed.</div></></AdminProtected>}
